@@ -1,0 +1,33 @@
+{
+  "name": "flatfile-test",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@flatfile/api": "^1.7.2",
+    "@flatfile/listener": "^1.0.1",
+    "@flatfile/react": "^7.8.2",
+    "@flatfile/v2-shims": "^1.1.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "scripts": {
+    "del-problem-mjs": "del-cli node_modules/@flatfile/react/dist/index.browser.mjs && del-cli node_modules/@flatfile/v2-shims/dist/index.browser.mjs",
+    "start": "react-scripts start"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "cross-env": "^7.0.3",
+    "del-cli": "5.1.0",
+    "typescript": "5.0.4"
+  }
+}
